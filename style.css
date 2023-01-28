@@ -64,7 +64,7 @@ img {
   float: right;
 }
 .genericBox {
-  height: 100vh;
+  height: 100%;
 }
 .genericBox a {
   color: #0097DF;
@@ -72,4 +72,8 @@ img {
 }
 .genericBox a:hover {
   color: #0000FF;
+}
+.genericBox img{
+	float: none;
+	width: 200px;
 }
